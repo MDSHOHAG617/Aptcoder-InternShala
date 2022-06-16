@@ -40,11 +40,13 @@ const Navbar = () => {
                 </Link>
               </li>
 
-              <li>
-                <Link className="font-bold " to="/dashboard">
-                  Dashboard
-                </Link>
-              </li>
+              {user && (
+                <li>
+                  <Link className="font-bold " to="/dashboard">
+                    Dashboard
+                  </Link>
+                </li>
+              )}
               {user ? (
                 <li>
                   <button className="font-bold " onClick={logout}>
@@ -72,11 +74,13 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li>
-              <Link className="font-bold " to="/dashboard">
-                Dashboard
-              </Link>
-            </li>
+            {user && (
+              <li>
+                <Link className="font-bold " to="/dashboard">
+                  Dashboard
+                </Link>
+              </li>
+            )}
             {user ? (
               <li>
                 <button className="font-bold " onClick={logout}>
