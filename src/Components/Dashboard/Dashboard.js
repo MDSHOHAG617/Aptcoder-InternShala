@@ -5,30 +5,39 @@ const Dashboard = () => {
   return (
     <div class="drawer drawer-mobile">
       <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
-      <div class="drawer-content ">
-        <h2 className="text-4xl">Dashboard</h2>
+      <div class="drawer-content  ">
         <Outlet />
         <label
           for="my-drawer-2"
-          className="btn btn-warning drawer-button lg:hidden btn-md  absolute bottom-0 right-0 "
+          className="btn bg-gradient-to-r to-green-200 from-yellow-200 border-none text-black  drawer-button lg:hidden btn-md  absolute  right-0 bottom-0 left-0 "
         >
           <img
-            className="w-6 mr-2"
-            src="https://cdn-icons.flaticon.com/png/512/1549/premium/1549454.png?token=exp=1655410567~hmac=2c0eb8842e494f5e8a2ce6539ef1e721"
+            className="w-10 ml-[-16px] "
+            src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/344/external-arrow-arrow-flatart-icons-solid-flatarticons-6.png"
             alt=""
           />{" "}
           Open drawer
         </label>
       </div>
-      <div class="drawer-side">
+      <div class="drawer-side ">
         <label for="my-drawer-2" class="drawer-overlay"></label>
-        <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
+        <ul class="menu p-4 overflow-y-auto w-80 bg-green-200 rounded text-base-content ">
           {/* <!-- Sidebar content here --> */}
           <li>
-            <Link to="/dashboard">Employee List</Link>
+            <Link
+              className="btn bg-gradient-to-r to-green-300 from-yellow-300 border-none mb-4 font-bold"
+              to="/dashboard"
+            >
+              Employee List
+            </Link>
           </li>
           <li>
-            <Link to="/dashboard/employeeAnalytics">Employee Analytics</Link>
+            <Link
+              className="btn bg-gradient-to-r from-green-300 to-yellow-300 border-none font-bold"
+              to="/dashboard/employeeAnalytics"
+            >
+              Employee Analytics
+            </Link>
           </li>
         </ul>
       </div>

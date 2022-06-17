@@ -1,7 +1,8 @@
 import React from "react";
+import AreaChartGraph from "../Charts/AreaChartGraph";
 
 const EmployeAnalytics = () => {
-  return <div>Employee Analytics</div>;
+  return <AreaChartGraph></AreaChartGraph>;
 };
 
 export default EmployeAnalytics;

@@ -11,7 +11,7 @@ const Navbar = () => {
   const [user, loading, error] = useAuthState(auth);
   return (
     <div>
-      <div class="navbar bg-gradient-to-r from-green-200 to-yellow-200 ">
+      <div class="navbar bg-green-200  ">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -116,6 +116,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
+      <div class="divider"></div>
     </div>
   );
 };

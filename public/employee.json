@@ -1,0 +1,51 @@
+[
+  {
+    "id": 0,
+    "name": "John Doe",
+    "age": 35,
+    "designation": "Software Engineer",
+    "salary": "$175,000"
+  },
+  {
+    "id": 1,
+    "name": "Jason Baroi",
+    "age": 27,
+    "designation": "backend developer",
+    "salary": "$155,000"
+  },
+  {
+    "id": 3,
+    "name": "Zayan Ahmmed",
+    "age": 24,
+    "designation": "UI/UX designer",
+    "salary": "$125,000"
+  },
+  {
+    "id": 4,
+    "name": "Nikki Mike",
+    "age": 32,
+    "designation": "Frontend developer ",
+    "salary": "$145,000"
+  },
+  {
+    "id": 5,
+    "name": "John Smith",
+    "age": 22,
+    "designation": "Hr (human resources) ",
+    "salary": "$200,000"
+  },
+  {
+    "id": 6,
+    "name": "John China",
+    "age": 35,
+    "designation": "Software Engineer",
+    "salary": "$185,000"
+  },
+  {
+    "id": 7,
+    "name": "Mic mikel",
+    "age": 35,
+    "designation": "Designer",
+    "salary": "$135,000"
+  }
+]

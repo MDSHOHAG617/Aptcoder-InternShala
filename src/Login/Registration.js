@@ -29,7 +29,7 @@ const Registration = () => {
     // );
   }
   return (
-    <div className=" mt-12 mb-8">
+    <div className=" mt-12 mb-8 bg-green-200 pb-96">
       <h2 className="text-2xl font-bold">please Register</h2>
       <div className=" p-4 rounded shadow-xl max-h-72 max-w-3xl mx-auto">
         <input

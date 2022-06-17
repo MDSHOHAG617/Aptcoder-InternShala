@@ -3,7 +3,6 @@ import "./App.css";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import EmployeAnalytics from "./Components/Dashboard/EmployeAnalytics";
 import EmployeList from "./Components/Dashboard/EmployeList";
-import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Header/Navbar";
 import Home from "./Components/Home/Home";
 import NotFound from "./Components/NotFound/NotFound";
@@ -12,7 +11,7 @@ import Registration from "./Login/Registration";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-green-200">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
